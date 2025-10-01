@@ -38,7 +38,6 @@ const useList = () => {
       setLoading(false);
     }
   };
-  console.log(listData);
 
   const bodyTemplate = (rowData) => {
     const text = rowData?.body ?? "";
